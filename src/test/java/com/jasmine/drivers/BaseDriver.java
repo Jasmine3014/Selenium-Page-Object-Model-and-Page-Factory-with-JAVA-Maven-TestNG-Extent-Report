@@ -30,7 +30,7 @@ public class BaseDriver {
 			driver.manage().window().maximize();
 		}
 		
-		PageDriver.getinstance().setDriver(driver);
+		PageDriver.getInstance().setDriver(driver);
 	}
 	@AfterSuite
 	public void CloseBrowser() {
