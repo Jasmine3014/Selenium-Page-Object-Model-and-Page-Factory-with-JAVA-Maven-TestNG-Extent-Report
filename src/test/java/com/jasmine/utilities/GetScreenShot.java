@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 
-public class captureScreenshots {
+public class GetScreenShot {
 	
 	public static String capture(WebDriver driver , String ScreenshotName) throws IOException {
 		
@@ -22,7 +22,6 @@ public class captureScreenshots {
 	   
 	  
 	}
-
+	
 }
-
 

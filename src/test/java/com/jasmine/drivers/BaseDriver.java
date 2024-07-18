@@ -11,6 +11,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseDriver {
 	
+	public static String url= "https://www.tutorialspoint.com/selenium/practice/login.php";
+	
 	public static WebDriver driver;
 	@BeforeSuite
 	public void startBrowser() {
